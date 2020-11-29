@@ -8,7 +8,7 @@
 1. Each commit message starts with an issue number.
 2. Single task, single commit.
 3. Each task is a new branch.
-4. Code must be reviewed by another person before merging.
+4. Code must be reviewed by another person before merging, other person reviews and merge the code.
 
 <h1><b>Sitemap</b></h1>
 <img src="design/sitemap/sitemap.png">
