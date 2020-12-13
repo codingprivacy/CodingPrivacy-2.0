@@ -21,3 +21,11 @@
 6. Pull Requests page can only be seen by authorized persons, who can view the list of all the PR, can approve them, or get directed to the Github repository. 
 7. Login gives more access to specific users (some access include PR page, Github redirect button for blogs and code snippets).
 8. We can create new code repo feeds and blogs on the website and raise a PR.
+
+<h1><b>High Fidelity Prototype</b></h1>
+
+Home Page
+<img src="design/Prototype/homepage.png">
+
+Blogs Page
+<img src="design/Prototype/BlogsMainPage.jpg">
