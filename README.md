@@ -1,23 +1,89 @@
-# CodingPrivacy-2.0
-<h1><b>Links</b></h1>
+# Steps to Create this project
+1. npm init react-app codingprivacy_website
 
-[Jira CodingPrivacy website](https://codingprivacy.atlassian.net/jira/software/projects/CW/boards/2)
+2. npm install eslint --save-dev
 
-<h1><b>GitHub</b></h1>
+3. npm install eslint-config-standard
 
-1. Each commit message starts with an issue number.
-2. Single task, single commit.
-3. Each task is a new branch.
-4. Code must be reviewed by another person before merging.
+4. npx eslint --init  (Airbnb style)
 
-<h1><b>Sitemap</b></h1>
-<img src="design/sitemap/sitemap.png">
+    [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
 
-1. Blogs page contains all the main topics and its subtopics (dropdown or something), leading to a page having blog content. 
-2. Projects page contains all the projects with their team members with a link leading to the GitHub repository. 
-3. About Us page has a description of CodingPrivacy (who we are and what we do); contains members tab which leads to the member's page. 
-4. Home page contains all the trending activity. (blogs, projects, code repo)
-5. Code repository contains a page with code feeds where filters can be applied to view specific results.
-6. Pull Requests page can only be seen by authorized persons, who can view the list of all the PR, can approve them, or get directed to the Github repository. 
-7. Login gives more access to specific users (some access include PR page, Github redirect button for blogs and code snippets).
-8. We can create new code repo feeds and blogs on the website and raise a PR.
+5. npm install gh-pages --save-dev
+
+6. add following in package.json
+
+    - 'homepage' tag contains the url to deploy.
+    - 'predeploy' and 'deploy' tag in scripts.
+
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
