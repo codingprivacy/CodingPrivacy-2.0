@@ -16,6 +16,9 @@
     - 'homepage' tag contains the url to deploy.
     - 'predeploy' and 'deploy' tag in scripts.
 
+7. Installing modules for Testinng
+    - npm install enzyme sinon --save
+    - npm i --save-dev enzyme enzyme-adapter-react-16
 
 # Getting Started with Create React App
 
