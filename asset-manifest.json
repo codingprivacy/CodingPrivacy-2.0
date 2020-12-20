@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/codingprivacy_website/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/codingprivacy_website/static/js/main.5ebd1c23.chunk.js",
-    "main.js.map": "/codingprivacy_website/static/js/main.5ebd1c23.chunk.js.map",
+    "main.js": "/codingprivacy_website/static/js/main.5c8b2ae7.chunk.js",
+    "main.js.map": "/codingprivacy_website/static/js/main.5c8b2ae7.chunk.js.map",
     "runtime-main.js": "/codingprivacy_website/static/js/runtime-main.14d0d4f7.js",
     "runtime-main.js.map": "/codingprivacy_website/static/js/runtime-main.14d0d4f7.js.map",
     "static/js/2.b9cbe527.chunk.js": "/codingprivacy_website/static/js/2.b9cbe527.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.14d0d4f7.js",
     "static/js/2.b9cbe527.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.5ebd1c23.chunk.js"
+    "static/js/main.5c8b2ae7.chunk.js"
   ]
 }
