@@ -27,8 +27,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Installing
         run: npm install
-      - name: Testing
-        run: npm test
       - name: ESLint check
         run: npx eslint . --ext .js,.jsx,.ts,.tsx
       - name: Deploying the app
