@@ -4,7 +4,7 @@ const React = require('react');
 
 const App = () => (
   <div className="App">
-    <h1>This is CodingPrivacy website, deployed on Github Pages.</h1>
+    <h1>This is CodingPrivacy website, This is how.</h1>
   </div>
 );
 
