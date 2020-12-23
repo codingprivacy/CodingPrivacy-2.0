@@ -1,3 +1,5 @@
+![CodingPrivacy deploy](https://github.com/codingprivacy/codingprivacy_website/workflows/.github/workflows/github-workflow-master.yml/badge.svg)
+
 # Steps to Create this project
 1. npm init react-app codingprivacy_website
 
