@@ -1,0 +1,17 @@
+.feedComponent{
+  $postBoxMargin: 0px 0px 20px 0px;
+  border-radius: $borderRadius2;
+  border: $border1;
+  background-color: $postColor;
+  margin: $postBoxMargin;
+}
+
+.buttonRed{
+  background-color: $buttonColor1;
+  color: $postColor;
+  border-radius: $borderRadius2;
+  padding: $buttonPadding1;
+  width: 100%;
+  border: none;
+  font-size: $fontSize3;
+}

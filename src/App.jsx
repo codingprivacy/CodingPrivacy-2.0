@@ -1,10 +1,20 @@
-import './App.css';
+import './App.scss';
+import { Container, Row, Col } from 'react-bootstrap';
+import Feeds from './apps/homepage/components/feeds/Feeds';
 
 const React = require('react');
 
 const App = () => (
   <div className="App">
-    <h1>This is CodingPrivacy website, This is how.</h1>
+    <Container fluid className="appContainer">
+      <Row>
+        <Col className=".bg-transparent" />
+        <Col lg={6}>
+          <Feeds />
+        </Col>
+        <Col />
+      </Row>
+    </Container>
   </div>
 );
 
