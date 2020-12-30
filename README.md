@@ -18,7 +18,14 @@
     - 'homepage' tag contains the url to deploy.
     - 'predeploy' and 'deploy' tag in scripts.
 
-
+7. Installing SASS and Bootstrap and prop-types
+    - npm install node-sass@4.14.1
+    - npm install react-bootstrap bootstrap
+    - npm install prop-types --save
+8. Icons
+    - npm install react-bootstrap-icons --save
+    - https://github.com/ismamz/react-bootstrap-icons
+    - https://icons.getbootstrap.com/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
