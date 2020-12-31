@@ -76,7 +76,7 @@ const Tags = () => {
   return (
     <Container className="tagsContainer justify-content-center d-flex">
       <div className="tagsdiv justify-content-left">
-        <p className="tagHeading h4 font-weight-bold">Tags</p>
+        <p className="tagHeading h3 font-weight-bold">Tags</p>
         {
         tagsList.map((tag) => (
           <p className="tag h5">
