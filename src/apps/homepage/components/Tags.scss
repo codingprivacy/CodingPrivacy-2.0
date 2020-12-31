@@ -1,0 +1,23 @@
+@import './feeds/default';
+@import './feeds/defaultComponents.scss';
+
+.tagHeading{
+  color: $fontColor3;
+}
+
+.tagsdiv{
+  width: 200px;
+}
+
+.tag{
+  line-height: 1.5;
+  color: #333;
+}
+
+$breakpoint-mobile: 800px;
+@media (max-width: $breakpoint-mobile)
+{
+  .tagsdiv{
+    display: none;
+  }
+}

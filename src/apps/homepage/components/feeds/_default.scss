@@ -7,15 +7,31 @@ $border1: 1px solid #ddd;
 $fontSize1: 14px;
 $fontSize2: 16px;
 $fontSize3: 20px;
+$fontSize4: 22px;
 
 $fontColor1: #555;
 $fontColor2: #666;
+$fontColor3: #333;
 
 $buttonColor1:  #ed1c24;
 $postColor: #fff;
 
-$lineHeight1: 1.5em;
+$lineHeight1: 1.0em;
+$lineHeight2: 1.5em;
 
 $iconWidth1: 1.75em;
 
 $buttonPadding1: 5px 20px;
+
+
+a:hover {
+  @extend .buttonRed;
+  color: #fff;
+  background-color: $buttonColor1;
+  text-decoration: underline;
+}
+
+a {
+  color: $fontColor3;
+  transition: background-color .2s;
+}
