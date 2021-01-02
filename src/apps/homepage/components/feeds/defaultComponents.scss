@@ -13,4 +13,27 @@
   padding: $buttonPadding1;
   border: none;
   font-size: $fontSize3;
+  outline: none;
+}
+
+$breakpoint-mobile: 540px;
+@media (max-width: $breakpoint-mobile)
+{
+  .buttonRed{
+  width: inherit;
+  margin: auto;
+  text-align: center;
+  font-size: $fontSize2;
+  }
+}
+
+$breakpoint-mobile: 320px;
+@media (max-width: $breakpoint-mobile)
+{
+  .buttonRed{
+    width: inherit;
+    margin: auto;
+    font-size: $fontSize1;
+    padding: $buttonPadding2;
+  }
 }

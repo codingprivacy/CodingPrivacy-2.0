@@ -22,7 +22,7 @@ $lineHeight2: 1.5em;
 $iconWidth1: 1.75em;
 
 $buttonPadding1: 5px 20px;
-
+$buttonPadding2: 4px 15px;
 
 a:hover {
   @extend .buttonRed;
@@ -34,4 +34,16 @@ a:hover {
 a {
   color: $fontColor3;
   transition: background-color .2s;
+}
+
+$breakpoint-mobile: 540px;
+@media (max-width: $breakpoint-mobile)
+{
+  $fontSize3: 16px;
+}
+
+$breakpoint-mobile: 320px;
+@media (max-width: $breakpoint-mobile)
+{
+  $fontSize3: 14px;
 }
