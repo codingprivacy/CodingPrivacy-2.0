@@ -1,6 +1,6 @@
 import './Tags.scss';
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Tags = () => {
   const tagsList = [
@@ -74,20 +74,22 @@ const Tags = () => {
     },
   ];
   return (
-    <Container className="tagsContainer justify-content-center d-flex">
-      <div className="tagsdiv justify-content-left">
-        <p className="tagHeading h3 font-weight-bold">Tags</p>
-        {
-        tagsList.map((tag) => (
-          <p className="tag h5">
-            <a href={tag.tagUrl}>
-              #
-              {tag.tagName}
-            </a>
-          </p>
-        ))
+    <Container xl={12} className="tagsContainer">
+      <Row>
+        <Col lg={{ span: 10, offset: 2 }} sm={12} md={12} xs={12} className="noGutters">
+          <p className="tagHeading h3 font-weight-bold">Tags</p>
+          {
+          tagsList.map((tag) => (
+            <p className="tag h5">
+              <a href={tag.tagUrl}>
+                #
+                {tag.tagName}
+              </a>
+            </p>
+          ))
         }
-      </div>
+        </Col>
+      </Row>
     </Container>
   );
 };

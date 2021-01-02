@@ -12,8 +12,8 @@ const ImageFeed = (props) => {
     FeedDescription,
   } = props;
   return (
-    <Container className="feedComponent">
-      <Row>
+    <Container className="feedComponent col-xl-12">
+      <Row xl={12}>
         <Col lg={3} className="profileInfoCol">
           <Row className="profileInfoRow">
             <Col className="text-center">
