@@ -27,6 +27,7 @@ const Feeds = () => {
   ];
   return (
     <div className="feedsCol">
+      <p className="tagHeading h3 font-weight-bold">Feeds</p>
       {
       rows.map((item) => (
         <div>
