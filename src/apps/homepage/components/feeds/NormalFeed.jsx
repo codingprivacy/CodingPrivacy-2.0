@@ -63,7 +63,7 @@ const NormalFeed = (props) => {
     FeedDescription,
   } = props;
   return (
-    <Container className="feedComponent">
+    <Container className="feedComponent col-xl-12">
       <FeedTopView postData={postData} />
       <FeedDescription
         feedPostName={postData.feedPostName}
