@@ -12,11 +12,18 @@
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
+<<<<<<< HEAD
     "react-bootstrap": "^1.4.0",
     "react-bootstrap-icons": "^1.2.2",
     "react-dom": "^17.0.1",
+=======
+>>>>>>> 21252c4 (Added Navbar feature)
     "react-bootstrap": "^1.4.0",
     "react-bootstrap-icons": "^1.2.2",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
