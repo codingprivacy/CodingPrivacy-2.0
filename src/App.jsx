@@ -1,15 +1,34 @@
 import './App.scss';
 import { Container, Row, Col } from 'react-bootstrap';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Feeds from './apps/homepage/components/feeds/Feeds';
 import Tags from './apps/homepage/components/Tags';
 import SearchBar from './apps/homepage/components/SearchBar';
 import Topics from './apps/homepage/components/Topics';
+import NavBar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
 
 const React = require('react');
 
 const App = () => (
   <div className="App">
     <Container fluid className="appContainer">
+      <Router>
+        <NavBar />
+        <Switch>
+          {/* {
+            menu.map((item) =>
+              <Route
+                exact={item.exact}
+                path={item.path}
+                component={}
+              />
+          ) } */}
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+        </Switch>
+      </Router>
       <Row>
         <SearchBar />
       </Row>
