@@ -1,0 +1,23 @@
+@import './feeds/default';
+@import './feeds/defaultComponents.scss';
+
+.topicsContainer{
+  padding-left: 25px;
+}
+
+$breakpoint-mobile: 768px;
+@media (max-width: $breakpoint-mobile)
+{
+  .topicsContainer{
+    padding-left: 15px;
+  }
+}
+
+$breakpoint-largeScreen: 1900px;
+@media (min-width: $breakpoint-mobile)
+{
+  .topicsContainer{
+    padding-left: 50px;
+  }
+
+}

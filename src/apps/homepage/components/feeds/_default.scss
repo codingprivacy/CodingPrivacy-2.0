@@ -1,0 +1,50 @@
+$borderRadius1: 5px;
+$borderRadius2: 10px;
+$borderRadius3: 50%;
+
+$border1: 1px solid #ddd;
+
+$fontSize1: 14px;
+$fontSize2: 16px;
+$fontSize5: 18px;
+$fontSize3: 20px;
+$fontSize4: 22px;
+
+$fontColor1: #555;
+$fontColor2: #666;
+$fontColor3: #333;
+
+$buttonColor1:  #ed1c24;
+$postColor: #fff;
+
+$lineHeight1: 1.0em;
+$lineHeight2: 1.5em;
+
+$iconWidth1: 1.75em;
+
+$buttonPadding1: 5px 20px;
+$buttonPadding2: 4px 15px;
+
+a:hover {
+  @extend .buttonRed;
+  color: #fff;
+  background-color: $buttonColor1;
+  text-decoration: underline;
+}
+
+a {
+  color: $fontColor3;
+  transition: background-color .2s;
+}
+
+$breakpoint-mobile: 540px;
+@media (max-width: $breakpoint-mobile)
+{
+  $fontSize3: 16px;
+}
+
+$breakpoint-mobile: 320px;
+@media (max-width: $breakpoint-mobile)
+{
+  $fontSize3: 14px;
+}

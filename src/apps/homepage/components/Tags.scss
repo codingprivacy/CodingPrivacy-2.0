@@ -1,0 +1,15 @@
+@import './feeds/default';
+@import './feeds/defaultComponents.scss';
+
+.tagsContainer{
+  padding-right: 25px;
+}
+
+.tagHeading{
+  color: $fontColor3;
+}
+
+.tag{
+  line-height: 1.5;
+  color: #333;
+}

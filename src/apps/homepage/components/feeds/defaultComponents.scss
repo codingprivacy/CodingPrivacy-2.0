@@ -1,0 +1,56 @@
+.feedComponent{
+  $postBoxMargin: 0px 0px 20px 0px;
+  border-radius: $borderRadius2;
+  border: $border1;
+  background-color: $postColor;
+  margin: $postBoxMargin;
+}
+
+.buttonRed{
+  background-color: $buttonColor1;
+  color: $postColor;
+  border-radius: $borderRadius2;
+  padding: $buttonPadding1;
+  border: none;
+  font-size: $fontSize3;
+  outline: none;
+  width: inherit;
+}
+
+.topicItem{
+  @extend .buttonRed;
+  padding: $buttonPadding2;
+  font-size: $fontSize3;
+  border: 1px solid $fontColor3;
+  margin-bottom: 10px;
+}
+
+$breakpoint-mobile: 540px;
+@media (max-width: $breakpoint-mobile)
+{
+  .buttonRed{
+  width: inherit;
+  margin: auto;
+  text-align: center;
+  font-size: $fontSize2;
+  }
+
+  .topicItem{
+    margin-bottom: 5px;
+  }
+}
+
+$breakpoint-mobile: 320px;
+@media (max-width: $breakpoint-mobile)
+{
+  .buttonRed{
+    width: inherit;
+    margin: auto;
+    font-size: $fontSize1;
+    padding: $buttonPadding2;
+  }
+
+  .topicItem{
+    margin-bottom: 5px;
+  }
+}

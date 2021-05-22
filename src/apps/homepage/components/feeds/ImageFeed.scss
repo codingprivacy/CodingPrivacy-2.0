@@ -1,0 +1,217 @@
+@import './default';
+@import './defaultComponents.scss';
+
+$postBg : #ffffff;
+$postBoxMargin: 0px 0px 20px 0px;
+$postBorderRadius: 10px;
+$profilePhotoWidth: 5em;
+$postImageBorder: 4px solid #f9be02;
+
+.noLargeDisplay{
+  display: none;
+}
+
+.profileInfoRow{
+  margin-top: 10px;
+}
+
+.feedProfileImage{
+  width: $profilePhotoWidth;
+  border-radius: $borderRadius3;
+}
+
+.feedProfileName{
+  font-size: $fontSize2;
+  margin:5px 0px 0px 0px;
+  color: $fontColor1;
+}
+
+.feedUploadedDate{
+  font-size: $fontSize1;
+  line-height: $lineHeight2;
+  color: $fontColor1;
+}
+
+.feedLikesCommentsCol{
+  margin:2em 0 0 0;
+}
+
+.likeCommentRow{
+  padding: 5px 0px;
+}
+
+.likeAndCommentIcon{
+  width: $iconWidth1;
+}
+
+.likesAndCommentsText{
+  font-size: $fontSize3;
+}
+
+.feedPostImageCol{
+  padding: 0px;
+}
+
+.feedImage{
+  border: $postImageBorder;
+  border-radius: $borderRadius1;
+  opacity: 0.9;
+}
+
+.saveCol{
+  padding-top:40px;
+}
+
+.feedPostName{
+  margin-top:20px;
+}
+
+.feedPostSeries{
+  margin-top: 2px;
+  color: $fontColor2;
+}
+
+$breakpoint-mobile: 540px;
+@media (max-width: $breakpoint-mobile)
+{
+  .h3{
+    font-size: 20px;
+  }
+
+  .h4{
+    font-size: 18px;
+  }
+
+  .onlyLargeDisplay{
+    display: none;
+  }
+
+  .noLargeDisplay{
+    display: contents;
+  }
+
+  .feedProfileName{
+    font-size: 12px;
+  }
+
+  .feedUploadedDate{
+    font-size: 10px;
+  }
+  
+  .profileInfoCol{
+    display: flex;
+  }
+
+  .feedProfileImage{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+  }
+
+  .feedLikesCommentsRow{
+    margin: auto;
+  }
+
+  .feedLikesCommentsCol{
+    margin:0px;
+  }
+
+  .likeAndCommentIcon{
+    height: 1.50em;
+    width: 1.50em;
+  }
+
+  .likesAndCommentsText{
+    font-size: 16px;
+  }
+
+  .buttonRed{
+    width: auto;
+    margin: auto;
+    font-size: 16px;
+  }
+
+  .saveCol{
+    padding-top:0px;
+  }
+
+  .feedPostName{
+    margin-top: 5px;
+  }
+}
+
+$breakpoint-laptop: 768px;
+@media (max-width: $breakpoint-laptop)
+{
+  .h3{
+    font-size: 20px;
+  }
+
+  .h4{
+    font-size: 18px;
+  }
+
+  .onlyLargeDisplay{
+    display: none;
+  }
+
+  .noLargeDisplay{
+    display: contents;
+  }
+
+  .profileInfoCol{
+    display: flex;
+  }
+
+  .feedProfileImage{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+  }
+
+  .feedLikesCommentsRow{
+    margin: auto;
+  }
+
+  .feedLikesCommentsCol{
+    margin:0px;
+  }
+
+  .likeAndCommentIcon{
+    height: 1.50em;
+    width: 1.50em;
+  }
+
+  .buttonRed{
+    width: auto;
+    margin: auto;
+  }
+
+  .saveCol{
+    padding-top:0px;
+  }
+
+  .feedPostName{
+    margin-top: 5px;
+  }
+}
+
+$breakpoint-largescreen: 2000px;
+@media (min-width: $breakpoint-largescreen) {
+  .feedProfileName{
+    font-size:18px;
+  }
+  
+  .feedUploadedDate{
+    font-size: 16px;
+  }
+
+  .likeAndCommentIcon{
+    height: 2.00em;
+    width: 2.00em;
+  }
+
+  .likesAndCommentsText{
+    font-size: 22px;
+  }
+}

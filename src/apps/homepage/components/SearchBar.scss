@@ -1,0 +1,33 @@
+@import './feeds/default';
+@import './feeds/defaultComponents.scss';
+
+.searchBarRow{
+  margin: 15px 0px;
+
+}
+
+.searchBar{
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px;
+  width: inherit;
+  font-family: sans-serif;
+  outline: none;
+}
+
+$breakpoint-mobile: 540px;
+@media (max-width: $breakpoint-mobile)
+{
+  .searchBar{
+  padding: 4px;
+  font-size: $fontSize2;
+  }
+}
+
+$breakpoint-mobile: 320px;
+@media (max-width: $breakpoint-mobile)
+{
+  .searchBar{
+    font-size: $fontSize1;
+    }
+}

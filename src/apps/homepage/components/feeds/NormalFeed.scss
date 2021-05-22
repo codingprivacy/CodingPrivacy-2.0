@@ -1,0 +1,13 @@
+.normalFeedLikeCommentRow{
+  text-align: left;
+}
+
+$breakpoint-laptop: 768px;
+@media (max-width: $breakpoint-laptop)
+{
+  .feedLikesCommentsCol{
+    margin:auto;
+  }
+}
+
+
