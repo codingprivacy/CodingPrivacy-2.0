@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/codingprivacy_website/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/codingprivacy_website/static/js/main.ca4dfbea.chunk.js",
-    "main.js.map": "/codingprivacy_website/static/js/main.ca4dfbea.chunk.js.map",
-    "runtime-main.js": "/codingprivacy_website/static/js/runtime-main.14d0d4f7.js",
-    "runtime-main.js.map": "/codingprivacy_website/static/js/runtime-main.14d0d4f7.js.map",
-    "static/js/2.8aa5b2f7.chunk.js": "/codingprivacy_website/static/js/2.8aa5b2f7.chunk.js",
-    "static/js/2.8aa5b2f7.chunk.js.map": "/codingprivacy_website/static/js/2.8aa5b2f7.chunk.js.map",
-    "static/js/3.a7796ba8.chunk.js": "/codingprivacy_website/static/js/3.a7796ba8.chunk.js",
-    "static/js/3.a7796ba8.chunk.js.map": "/codingprivacy_website/static/js/3.a7796ba8.chunk.js.map",
+    "main.css": "/codingprivacy_website/static/css/main.ab53650f.chunk.css",
+    "main.js": "/codingprivacy_website/static/js/main.e89e3435.chunk.js",
+    "main.js.map": "/codingprivacy_website/static/js/main.e89e3435.chunk.js.map",
+    "runtime-main.js": "/codingprivacy_website/static/js/runtime-main.cd34959f.js",
+    "runtime-main.js.map": "/codingprivacy_website/static/js/runtime-main.cd34959f.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/codingprivacy_website/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.69f60bf6.chunk.js": "/codingprivacy_website/static/js/2.69f60bf6.chunk.js",
+    "static/js/2.69f60bf6.chunk.js.map": "/codingprivacy_website/static/js/2.69f60bf6.chunk.js.map",
+    "static/js/3.98aaf0bb.chunk.js": "/codingprivacy_website/static/js/3.98aaf0bb.chunk.js",
+    "static/js/3.98aaf0bb.chunk.js.map": "/codingprivacy_website/static/js/3.98aaf0bb.chunk.js.map",
     "index.html": "/codingprivacy_website/index.html",
-    "static/css/main.ea1455b2.chunk.css.map": "/codingprivacy_website/static/css/main.ea1455b2.chunk.css.map",
-    "static/js/2.8aa5b2f7.chunk.js.LICENSE.txt": "/codingprivacy_website/static/js/2.8aa5b2f7.chunk.js.LICENSE.txt"
+    "static/css/2.4c97ca4f.chunk.css.map": "/codingprivacy_website/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ab53650f.chunk.css.map": "/codingprivacy_website/static/css/main.ab53650f.chunk.css.map",
+    "static/js/2.69f60bf6.chunk.js.LICENSE.txt": "/codingprivacy_website/static/js/2.69f60bf6.chunk.js.LICENSE.txt",
+    "static/media/feedPost.644f10f3.png": "/codingprivacy_website/static/media/feedPost.644f10f3.png",
+    "static/media/feed_profile2.8a994c35.png": "/codingprivacy_website/static/media/feed_profile2.8a994c35.png",
+    "static/media/logo.f8879fd4.png": "/codingprivacy_website/static/media/logo.f8879fd4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.14d0d4f7.js",
-    "static/js/2.8aa5b2f7.chunk.js",
-    "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.ca4dfbea.chunk.js"
+    "static/js/runtime-main.cd34959f.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.69f60bf6.chunk.js",
+    "static/css/main.ab53650f.chunk.css",
+    "static/js/main.e89e3435.chunk.js"
   ]
 }
